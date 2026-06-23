@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/settings.css" />
+  </head>
+  <body
+    style="font-family: &quot;Droid Arabic Kufi&quot;, serif; direction: rtl"
+  >
+    <header style="padding-right: 10px">
+      <h3>الإعدادات</h3>
+    </header>
+
+    <main>
+      <div class="name">
+        <img src="/images/settings/name.png" />
+      </div>
+
+      <div class="items">
+        <div>
+          <i class="fa-regular fa-circle-question"></i>
+          نبذة عنا
+        </div>
+
+        <div>
+          <i class="fa-regular fa-address-card"></i>
+          هوية الطالب
+        </div>
+
+        <div id="examsCard">
+          <i class="fa-regular fa-id-badge"></i>
+          بطاقة دخول الامتحان
+        </div>
+
+        <div style="cursor: pointer">
+          <i class="fa-regular fa-image"></i>
+          معرض الصور
+        </div>
+
+        <div>
+          <i class="fa-solid fa-globe"></i>
+          اللغة
+        </div>
+
+        <div style="color: red">
+          <small id="signout" style="cursor: pointer; font-size: 16px"
+            >خروج</small
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" style="direction: ltr">
+      <i class="fa-solid fa-gear" id="settings" style="color: #259c3e"></i>
+      <i class="fa-solid fa-bell" id="notifications"></i>
+      <i class="fa-solid fa-house" id="home"></i>
+    </footer>
+
+    <script src="/js/dashboard.js"></script>
+  </body>
+</html>

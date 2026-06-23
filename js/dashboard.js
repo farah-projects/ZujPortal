@@ -5,15 +5,15 @@ const signout = document.getElementById("signout");
 const examsCard = document.getElementById("examsCard");
 
 settings.addEventListener("click", () => {
-  window.location.href = "pages/settings.html";
+  window.location.href = "../pages/settings.html";
 });
 
 notifications.addEventListener("click", () => {
-  window.location.href = "pages/notification.html";
+  window.location.href = "../pages/notification.html";
 });
 
 home.addEventListener("click", () => {
-  window.location.href = "pages/dashboard.html";
+  window.location.href = "../pages/dashboard.html";
 });
 
 signout.addEventListener("click", () => {
@@ -21,5 +21,5 @@ signout.addEventListener("click", () => {
 });
 
 examsCard.addEventListener("click", () => {
-  window.location.href = "pages/examscard.html";
+  window.location.href = "../pages/examscard.html";
 });
